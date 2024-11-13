@@ -7,7 +7,7 @@ import seaborn as sns
 st.title("Dashboard Analisis Penyewaan Sepeda")
 
 # Mengimpor data
-data = pd.read_csv("main_data.csv")
+data = pd.read_csv("dashboard/main_data.csv")
 
 # Menampilkan beberapa data untuk referensi
 st.write("Data Penyewaan Sepeda")
