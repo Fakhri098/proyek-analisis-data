@@ -106,3 +106,5 @@ elif analysis_option == "Pertanyaan 2: Pengaruh Faktor Lingkungan terhadap Penye
         st.pyplot(fig)
     else:
         st.error("Kolom 'cnt', 'temp', 'hum', atau 'windspeed' tidak ditemukan dalam data.")
+        
+
